@@ -1,0 +1,85 @@
+# Virtual environment
+venv/
+.env
+.env.*
+.venv/
+ENV/
+env/
+*.env
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs / reports
+*.log
+*.out
+*.err
+logs/
+coverage/
+htmlcov/
+.pytest_cache/
+.cache/
+coverage.xml
+*.cover
+
+# VSCode / PyCharm / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.old
+
+# Migrations (if using later)
+migrations/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# MyPy / static type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Test artifacts
+.tox/
+.nox/
+pytestdebug.log
+
+# Backend runtime files
+workspace/
+runs/
+uploads/
+__temp__/
+
+# Node / frontend (if monorepo)
+frontend/node_modules/
+frontend/.next/
+frontend/.vercel/
+frontend/out/
+frontend/dist/
+
+# Poetry / pipenv
+poetry.lock
+Pipfile.lock
+
+# Docker / containers (optional)
+.dockerignore
+Dockerfile
+docker-compose.yml
